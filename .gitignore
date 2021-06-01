@@ -1,1 +1,4 @@
 node_modules/
+/middleware.js
+/test.js
+/middleware.js
