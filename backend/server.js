@@ -18,9 +18,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 app.use(express.json())
 
-app.get('/', (req, res) => {
-    res.send('API is running')
-})
+
 app.use('/products', productRoutes)
 app.use('/users', userRoutes)
 app.use('/orders', orderRoutes)
